@@ -6,13 +6,13 @@ export PATH="$HOME/.local/bin:$PATH"
 # go
 export PATH="$HOME/go/bin:$PATH"
 
-# Plugings
+# [[ Plugings ]]
 plugins=(git)
 
-# Theme
+# [[ Theme ]]
 ZSH_THEME="gozilla"
 
-# Aliases
+# [[ Aliases ]]
 alias ff="fastfetch"
 alias opn="xdg-open"
 alias tt="tree"
