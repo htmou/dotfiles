@@ -16,7 +16,8 @@ ZSH_THEME="gozilla"
 alias ff="fastfetch"
 alias opn="xdg-open"
 alias tt="tree"
-alias sysr="reboot"
-alias sysd="shutdown now"
+alias sysd="systemctl poweroff"
+alias sysr="systemctl reboot"
+alias sysp="systemctl suspend && i3lock -c 000000"
 
 source $ZSH/oh-my-zsh.sh
