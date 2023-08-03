@@ -36,15 +36,15 @@ cursor:
 # [[ Font ]]
 font:
     normal:
-        family: CaskaydiaCove NF
+        family: FiraCode Nerd Font
         style: Bold
 
     bold:
-        family: CaskaydiaCove NF
+        family: FiraCode Nerd Font
         style: Bold
 
     italic:
-        family: CaskaydiaCove NF
+        family: FiraCode Nerd Font
         style: Bold
 
     size: 11.0
