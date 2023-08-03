@@ -13,11 +13,11 @@ plugins=(git)
 ZSH_THEME="gozilla"
 
 # [[ Aliases ]]
-alias ff="fastfetch"
+alias nf="neofetch"
 alias opn="xdg-open"
 alias tt="tree"
 alias sysd="systemctl poweroff"
 alias sysr="systemctl reboot"
-alias sysp="systemctl suspend && i3lock -c 000000"
+alias sysp="systemctl suspend"
 
 source $ZSH/oh-my-zsh.sh
