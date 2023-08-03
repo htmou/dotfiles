@@ -1,81 +1,83 @@
-# Colors
+# [[ Colors ]]
 colors:
-  primary:
-    background: "#000000"
-    foreground: "#abb2bf"
+    primary:
+        background: "#000000"
+        foreground: "#abb2bf"
 
-  normal:
-    black: "#4C566A"
-    red: "#bf616a"
-    green: "#A3BE8C"
-    yellow: "#D7BA7D"
-    blue: "#5e81ac"
-    magenta: "#B48EAD"
-    cyan: "#88c0d0"
-    white: "#abb2bf"
+    normal:
+        black: "#4C566A"
+        red: "#bf616a"
+        green: "#A3BE8C"
+        yellow: "#D7BA7D"
+        blue: "#5e81ac"
+        magenta: "#B48EAD"
+        cyan: "#88c0d0"
+        white: "#abb2bf"
 
-  bright:
-    black: "#4C566A"
-    red: "#bf616a"
-    green: "#A3BE8C"
-    yellow: "#D7BA7D"
-    blue: "#5e81ac"
-    magenta: "#B48EAD"
-    cyan: "#88c0d0"
-    white: "#abb2bf"
+    bright:
+        black: "#4C566A"
+        red: "#bf616a"
+        green: "#A3BE8C"
+        yellow: "#D7BA7D"
+        blue: "#5e81ac"
+        magenta: "#B48EAD"
+        cyan: "#88c0d0"
+        white: "#abb2bf"
 
-  cursor:
-    text: "#3B4252"
-    cursor: "#ECEFF4"
+    cursor:
+        text: "#3B4252"
+        cursor: "#ECEFF4"
 
 # Cursor style
 cursor:
-  style:
-    blinking: Never
+    style:
+        blinking: Never
 
-# Font
+# [[ Font ]]
 font:
-  normal:
-    family: CaskaydiaCove NF 
-    style: Bold
+    normal:
+        family: CaskaydiaCove NF
+        style: Bold
 
-  bold:
-    family: CaskaydiaCove NF
-    style: Bold
+    bold:
+        family: CaskaydiaCove NF
+        style: Bold
 
-  italic:
-    family: CaskaydiaCove NF
-    style: Bold 
+    italic:
+        family: CaskaydiaCove NF
+        style: Bold
 
-  size: 11.0
-  ligatures: true
+    size: 11.0
+    ligatures: true
 
-  offset:
-    x: 0
-    y: 0
-  glyph_offset:
-    x: 0
-    y: 0
+    offset:
+        x: 0
+        y: 0
 
-# Window
+    glyph_offset:
+        x: 0
+        y: 0
+
+# [[ Window ]]
 window:
-  padding:
-    x: 2
-    y: 2
+    padding:
+        x: 2
+        y: 2
 
-  # [[ Scrolling ]]
-  # Maximum number of lines in the scrollback buffer
-  # Specifying '0' will disable scrolling
-  history: 10000
+    # [[ Scrolling ]]
+    # Maximum number of lines in the scrollback buffer
+    # Specifying '0' will disable scrolling
+    history: 10000
 
-  draw_bold_text_with_bright_colors: true
-  live_config_reload: true
+    draw_bold_text_with_bright_colors: true
+    live_config_reload: true
 
-  # Selection
-  semantic_escape_chars: ',│`|:"'' ()[]{}<>'
+    # Selection
+    semantic_escape_chars: ',│`|:"'' ()[]{}<>'
+
 key_bindings:
-  - { key: V, mods: Control|Shift, action: Paste }
-  - { key: C, mods: Control|Shift, action: Copy }
-  - { key: Key0, mods: Control, action: ResetFontSize }
-  - { key: Equals, mods: Control, action: IncreaseFontSize }
-  - { key: Minus, mods: Control, action: DecreaseFontSize }
+    - { key: V, mods: Control|Shift, action: Paste }
+    - { key: C, mods: Control|Shift, action: Copy }
+    - { key: Key0, mods: Control, action: ResetFontSize }
+    - { key: Equals, mods: Control, action: IncreaseFontSize }
+    - { key: Minus, mods: Control, action: DecreaseFontSize }
