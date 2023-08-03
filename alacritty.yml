@@ -61,8 +61,12 @@ font:
 # [[ Window ]]
 window:
     padding:
-        x: 2
-        y: 2
+        x: 9
+        y: 9
+
+    dimensions:
+        columns: 130
+        lines: 130
 
     # [[ Scrolling ]]
     # Maximum number of lines in the scrollback buffer
