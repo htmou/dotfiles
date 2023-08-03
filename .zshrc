@@ -16,8 +16,8 @@ ZSH_THEME="gozilla"
 alias nf="neofetch"
 alias opn="xdg-open"
 alias tt="tree"
-alias sysd="systemctl poweroff"
-alias sysr="systemctl reboot"
+alias sysd="shutdown -h now"
+alias sysr="shutdown -r now"
 alias sysp="systemctl suspend"
 
 source $ZSH/oh-my-zsh.sh
