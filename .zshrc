@@ -10,14 +10,18 @@ export PATH="$HOME/go/bin:$PATH"
 plugins=(git)
 
 # [[ Theme ]]
-ZSH_THEME="sonicradish"
+ZSH_THEME="ys"
 
 # [[ Aliases ]]
 alias nf="neofetch"
-alias opn="xdg-open"
+#alias opn="xdg-open"
 alias tt="tree"
-alias sysd="shutdown -h now"
-alias sysr="shutdown -r now"
+alias sysd="systemctl poweroff"
 alias sysp="systemctl suspend"
+alias sysr="systemctl reboot"
+
+# [[ Arch Aliases ]]
+#alias sysd="shutdown -h now"
+#alias sysr="shutdown -r now"
 
 source $ZSH/oh-my-zsh.sh
