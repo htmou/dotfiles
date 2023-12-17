@@ -10,7 +10,7 @@ export PATH="$HOME/go/bin:$PATH"
 plugins=(git)
 
 # [[ Theme ]]
-ZSH_THEME="ys"
+ZSH_THEME="bira"
 
 # [[ Aliases ]]
 alias nf="neofetch"
