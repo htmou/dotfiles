@@ -14,6 +14,7 @@ ZSH_THEME="bira"
 
 # [[ Aliases ]]
 alias nf="neofetch"
+alias python="python3"
 #alias opn="xdg-open"
 alias tt="tree"
 alias sysd="systemctl poweroff"
