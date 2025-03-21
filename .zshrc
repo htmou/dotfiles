@@ -7,7 +7,7 @@ export PATH="$HOME/.local/bin:$PATH"
 export PATH="$HOME/go/bin:$PATH"
 
 # [[ Plugings ]]
-plugins=(git)
+plugins=(git zsh-syntax-highlighting zsh-autosuggestions)
 
 # [[ Theme ]]
 ZSH_THEME="bira"
